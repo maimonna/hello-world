@@ -20,6 +20,7 @@ public class MyClient {
          
          System.out.println("Server says " + in.readUTF());
          client.close();
+		 //this is a comment
       }catch(IOException e) {
          e.printStackTrace();
       }
